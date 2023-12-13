@@ -1,0 +1,63 @@
+body {
+      padding: 5rem;
+      background: black;
+}
+
+.container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: auto;
+      grid-gap: 1rem;
+      grid-template-areas:
+            'a a a a'
+            'b c c d'
+            'b e f d'
+            'g h i j'
+      ;
+}
+
+.image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+
+.image1 {
+      grid-area: a;
+}
+
+.image2 {
+      grid-area: b;
+}
+
+.image3 {
+      grid-area: c;
+}
+
+.image4 {
+      grid-area: d;
+}
+
+.image5 {
+      grid-area: e;
+}
+
+.image6 {
+      grid-area: f;
+}
+
+.image7 {
+      grid-area: g;
+}
+
+.image8 {
+      grid-area: h;
+}
+
+.image9 {
+      grid-area: i;
+}
+
+.image10 {
+      grid-area: j;
+}
